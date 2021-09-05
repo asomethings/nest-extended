@@ -1,0 +1,20 @@
+{
+  "compilerOptions": {
+    "lib": ["es2021"],
+    "module": "esnext",
+    "target": "es2020",
+    "outDir": "dist",
+    "strict": true,
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "forceConsistentCasingInFileNames": true,
+    "moduleResolution": "node",
+    "resolveJsonModule": true,
+    "declaration": true,
+    "declarationDir": "dist",
+    "experimentalDecorators": true
+  },
+  "files": ["index.ts", "rollup.config.ts"],
+  "include": ["adapters", "server", "interfaces", "file-upload"],
+  "exclude": ["dist"]
+}
