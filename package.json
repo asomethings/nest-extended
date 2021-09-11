@@ -10,7 +10,8 @@
   "scripts": {
     "rollup": "rollup --config rollup.config.ts --configPlugin typescript",
     "test": "ava",
-    "coverage": "c8 pnpm test"
+    "coverage": "c8 -r json pnpm test ",
+    "lint": "eslint . --ext .ts --quiet"
   },
   "engines": {
     "node": ">=14"

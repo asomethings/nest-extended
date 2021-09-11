@@ -15,6 +15,6 @@
     "experimentalDecorators": true
   },
   "files": ["index.ts", "rollup.config.ts"],
-  "include": ["adapters", "server", "interfaces", "file-upload"],
+  "include": ["adapters", "server", "interfaces", "file-upload", "tests"],
   "exclude": ["dist"]
 }
