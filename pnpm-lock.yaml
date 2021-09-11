@@ -5,8 +5,8 @@ specifiers:
   '@commitlint/config-conventional': 13.1.0
   '@nanoexpress/middleware-file-upload': ^1.0.4
   '@nanoexpress/middleware-static-serve': ^1.0.3
-  '@nestjs/common': ^8.0.6
-  '@nestjs/core': ^8.0.6
+  '@nestjs/common': 8.0.6
+  '@nestjs/core': 8.0.6
   '@rollup/plugin-typescript': ^8.2.5
   '@types/cors': ^2.8.12
   '@types/node': ^16.7.10
