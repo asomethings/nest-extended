@@ -1,5 +1,8 @@
 # nest-platform-nanoexpress
 
+[![codecov](https://codecov.io/gh/asomethings/nest-platform-nanoexpress/branch/main/graph/badge.svg?token=8IXYG2705Y)](https://codecov.io/gh/asomethings/nest-platform-nanoexpress)
+[![Lint and Test](https://github.com/asomethings/nest-platform-nanoexpress/actions/workflows/lint_test.yml/badge.svg)](https://github.com/asomethings/nest-platform-nanoexpress/actions/workflows/lint_test.yml)
+
 ## Install
 
 
