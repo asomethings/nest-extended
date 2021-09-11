@@ -10,7 +10,7 @@ import {
 } from '@nestjs/common'
 import { NestFactory } from '@nestjs/core'
 import anyTest, { TestInterface } from 'ava'
-import { NanoexpressAdapter } from '../..'
+import { NanoexpressAdapter } from '../../lib'
 import got, { Got } from 'got'
 
 interface TestContext {

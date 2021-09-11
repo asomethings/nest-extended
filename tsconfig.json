@@ -3,6 +3,7 @@
     "lib": ["es2021"],
     "module": "esnext",
     "target": "es2020",
+    "baseUrl": "lib",
     "outDir": "dist",
     "strict": true,
     "esModuleInterop": true,
@@ -12,9 +13,9 @@
     "resolveJsonModule": true,
     "declaration": true,
     "declarationDir": "dist",
-    "experimentalDecorators": true
+    "experimentalDecorators": true,
   },
-  "files": ["index.ts", "rollup.config.ts"],
-  "include": ["adapters", "server", "interfaces", "file-upload", "tests"],
-  "exclude": ["dist"]
+  "files": ["rollup.config.ts"],
+  "include": ["lib", "tests"],
+  "exclude": ["node_modul-es", "dist"]
 }

@@ -4,7 +4,7 @@ import { terser } from 'rollup-plugin-terser'
 import { RollupOptions } from 'rollup'
 
 export default {
-  input: 'index.ts',
+  input: 'lib/index.ts',
   output: {
     dir: 'dist',
     format: 'esm',
