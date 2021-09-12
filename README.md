@@ -29,6 +29,6 @@ await app.listen(process.env.PORT)
 ```
 
 ## To-do
-- [ ] View Engine Support
+- [x] View Engine Support (Partially supports it without Dynamic template rendering)
 - [ ] Websocket Support
 - [ ] Swagger support
