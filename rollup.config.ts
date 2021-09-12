@@ -14,5 +14,7 @@ export default {
     ...Object.keys(dependencies),
     ...Object.keys(peerDependencies),
     'events',
+    'node:path',
+    'node:fs',
   ],
 } as RollupOptions

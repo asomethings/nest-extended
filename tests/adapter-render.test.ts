@@ -62,7 +62,7 @@ test.after.always(async (t) => {
   await t.context.app.close()
 })
 
-test('does nest properly render using mustache-express', async (t) => {
+test('does properly render using mustache-express', async (t) => {
   const response = await t.context.got('', { throwHttpErrors: false })
   t.is(response.body, 'Hello, world')
 })

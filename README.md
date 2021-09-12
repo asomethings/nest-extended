@@ -24,7 +24,7 @@ import { NestFactory } from '@nestjs/core'
 class AppModule {}
 
 const adapter = new NanoexpressAdapter()
-const app = await NestFactory.create(AppModule, adapter)
+const app = await NestFactory.create<NestNanoexpressApplication>(AppModule, adapter)
 await app.listen(process.env.PORT)
 ```
 
