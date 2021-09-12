@@ -16,6 +16,6 @@
     "experimentalDecorators": true,
   },
   "files": ["rollup.config.ts"],
-  "include": ["lib", "tests"],
-  "exclude": ["node_modul-es", "dist"]
+  "include": ["lib", "tests", "benchmarks"],
+  "exclude": ["node_modules", "dist"]
 }

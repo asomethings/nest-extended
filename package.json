@@ -10,8 +10,9 @@
   "scripts": {
     "rollup": "rollup --config rollup.config.ts --configPlugin typescript",
     "test": "ava",
-    "coverage": "c8 -r json pnpm test ",
-    "lint": "eslint . --ext .ts --quiet"
+    "coverage": "c8 -r json pnpm test",
+    "lint": "eslint . --ext .ts --quiet",
+    "benchmark": "node --no-warnings --loader ts-node/esm --experimental-specifier-resolution=node benchmarks/run.ts"
   },
   "engines": {
     "node": ">=14"
@@ -28,11 +29,15 @@
     "@commitlint/config-conventional": "13.1.0",
     "@nestjs/common": "8.0.6",
     "@nestjs/core": "8.0.6",
+    "@nestjs/platform-express": "^8.0.6",
+    "@nestjs/platform-fastify": "^8.0.6",
     "@rollup/plugin-typescript": "8.2.5",
+    "@types/autocannon": "^4.1.1",
     "@types/cors": "2.8.12",
     "@types/node": "16.9.1",
     "@typescript-eslint/eslint-plugin": "4.31.0",
     "@typescript-eslint/parser": "4.31.0",
+    "autocannon": "^7.4.0",
     "ava": "3.15.0",
     "c8": "7.9.0",
     "eslint": "7.32.0",
@@ -65,6 +70,7 @@
       "configurableModuleFormat": true
     },
     "nodeArguments": [
+      "--no-warnings",
       "--loader=ts-node/esm",
       "--experimental-specifier-resolution=node"
     ]
