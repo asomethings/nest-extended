@@ -10,7 +10,7 @@ import anyTest, { TestInterface } from 'ava'
 import { NanoexpressAdapter, NestNanoexpressApplication } from '../lib'
 import got, { Got } from 'got'
 import mustacheExpress from 'mustache-express'
-import { fileURLToPath } from 'node:url';
+import { fileURLToPath } from 'node:url'
 import { dirname } from 'node:path'
 
 const __dirname = fileURLToPath(dirname(import.meta.url))
@@ -43,7 +43,7 @@ test.before(async (t) => {
   const app = await NestFactory.create<NestNanoexpressApplication>(
     AppModule,
     adapter,
-    { logger: false }
+    { logger: false },
   )
   app
     .setBaseViewsDir(`${__dirname}/views`)

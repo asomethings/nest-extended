@@ -186,6 +186,7 @@ export class NanoexpressAdapter extends AbstractHttpAdapter<
    */
   public setViewEngine(name: string): this {
     if (!this.engineHandler.has(name)) {
+      // eslint-disable-next-line @typescript-eslint/no-var-requires
       this.engineHandler.add(name, require(name).__express)
     }
 
