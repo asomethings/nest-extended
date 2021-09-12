@@ -29,6 +29,7 @@
         "trailingComma": "all",
         "bracketSpacing": true
       }
-    ]
+    ],
+    "curly": ["error"]
   }
 }

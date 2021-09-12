@@ -1,3 +1,4 @@
+/* eslint-disable @typescript-eslint/ban-types */
 import { AbstractHttpAdapter } from '@nestjs/core/adapters/http-adapter'
 import nanoexpress, {
   HttpRoute,
@@ -20,7 +21,8 @@ import {
   CorsOptionsDelegate,
 } from '@nestjs/common/interfaces/external/cors-options.interface'
 import { RequestHandler } from '@nestjs/common/interfaces'
-import { NanoexpressServer } from '../server'
+import { NanoexpressServer } from './server'
+import { EngineHandler, Renderer } from './engine-handler'
 
 export class NanoexpressAdapter extends AbstractHttpAdapter<
   NanoexpressServer,
@@ -28,6 +30,8 @@ export class NanoexpressAdapter extends AbstractHttpAdapter<
   IHttpResponse
 > {
   protected readonly instance!: INanoexpressApp
+
+  protected readonly engineHandler = new EngineHandler()
 
   constructor(options: Omit<Partial<IAppOptions>, 'console'> = {}) {
     super(nanoexpress({ ...options, console: false } as IAppOptions))
@@ -61,13 +65,13 @@ export class NanoexpressAdapter extends AbstractHttpAdapter<
     return response.status(statusCode)
   }
 
-  public render(
+  public async render(
     response: IHttpResponse,
     view: string,
-    options: unknown,
-  ): IHttpResponse {
-    //TODO: implement render since nanoexpress does not support it
-    return response
+    options: Record<string, unknown>,
+  ): Promise<IHttpResponse> {
+    const result = await this.engineHandler.render(view, options)
+    return response.send(result)
   }
 
   public redirect(
@@ -149,9 +153,17 @@ export class NanoexpressAdapter extends AbstractHttpAdapter<
     return this.instance
   }
 
-  public engine(): INanoexpressApp {
-    // Since nanoexpress does not have "engine" function it just returns the instance
-    return this.instance
+  /**
+   * Register engine
+   *
+   * @param {string} name
+   * @param {Renderer} renderer
+   * @returns {this}
+   */
+  public engine(name: string, renderer: Renderer): this {
+    this.engineHandler.add(name, renderer)
+
+    return this
   }
 
   public useStaticAssets(
@@ -161,14 +173,25 @@ export class NanoexpressAdapter extends AbstractHttpAdapter<
     return this.use(staticServe(path, options))
   }
 
-  public setBaseViewsDir(): INanoexpressApp {
-    //TODO: implement setBaseViewsDir for render functionallity
-    return this.instance
+  public setBaseViewsDir(path: string | string[]): this {
+    this.engineHandler.setBaseViewsDir(path)
+    return this
   }
 
-  public setViewEngine(): INanoexpressApp {
-    //TODO: implement view engine for render functionallity
-    return this.instance
+  /**
+   * Set default view engine
+   *
+   * @param {string} name
+   * @returns {this}
+   */
+  public setViewEngine(name: string): this {
+    if (!this.engineHandler.has(name)) {
+      this.engineHandler.add(name, require(name).__express)
+    }
+
+    this.engineHandler.setDefaultEngine(name)
+
+    return this
   }
 
   /**
@@ -184,7 +207,9 @@ export class NanoexpressAdapter extends AbstractHttpAdapter<
       host = host.substring(0, host.indexOf(',')).trimRight()
     }
 
-    if (!host) return
+    if (!host) {
+      return
+    }
 
     const offset = host[0] === '[' ? host.indexOf(']') + 1 : 0
     const index = host.indexOf(':', offset)
