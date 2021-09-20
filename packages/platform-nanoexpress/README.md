@@ -4,10 +4,10 @@
 
 ```bash
 # npm
-npm install nest-platform-nanoexpress
+npm install @nestjs-extended/platform-nanoexpress
 
 # pnpm
-pnpm add nest-platform-nanoexpress
+pnpm add @nestjs-extended/platform-nanoexpress
 ```
 
 ## Usage
