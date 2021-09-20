@@ -9,11 +9,16 @@
   "exports": "./dist/index.js",
   "license": "MIT",
   "scripts": {
+    "prerelease": "pnpm lint && pnpm rollup",
     "rollup": "pnpm -r rollup",
     "test": "pnpm -r test",
     "coverage": "pnpm -r coverage",
     "lint": "pnpm -r lint",
-    "benchmark": "node --no-warnings --loader ts-node/esm --experimental-specifier-resolution=node benchmarks/run.ts"
+    "benchmark": "node --no-warnings --loader ts-node/esm --experimental-specifier-resolution=node benchmarks/run.ts",
+    "changeset": "changeset",
+    "changeset:version": "changeset version",
+    "release": "changeset publish",
+    "changeset-rimraf": "rimraf packages/*/CHANGELOG.md"
   },
   "engines": {
     "node": ">=14"
@@ -38,6 +43,7 @@
     "prettier": "2.4.0",
     "prettier-plugin-organize-imports": "2.3.3",
     "reflect-metadata": "0.1.13",
+    "rimraf": "^3.0.2",
     "rollup": "2.56.3",
     "rollup-plugin-terser": "7.0.2",
     "rxjs": "7.3.0",
@@ -46,5 +52,8 @@
     "ts-toolbelt": "9.6.0",
     "tslib": "2.3.1",
     "typescript": "4.4.3"
+  },
+  "dependencies": {
+    "@changesets/cli": "^2.17.0"
   }
 }

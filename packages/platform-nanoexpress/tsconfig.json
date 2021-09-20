@@ -4,5 +4,6 @@
     "declarationDir": "dist",
     "outDir": "dist",
   },
-  "files": ["rollup.config.ts"]
+  "files": ["rollup.config.ts"],
+  "include": ["lib", "tests"]
 } 
