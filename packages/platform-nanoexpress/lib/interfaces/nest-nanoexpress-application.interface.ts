@@ -1,5 +1,5 @@
 import { INestApplication } from '@nestjs/common'
-import { Renderer } from 'engine-handler'
+import { Renderer } from '../engine-handler'
 import { ServeStaticOptions } from './serve-static-options.interface'
 
 export interface NestNanoexpressApplication extends INestApplication {

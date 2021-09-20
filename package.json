@@ -1,35 +1,26 @@
 {
-  "name": "nest-platform-nanoexpress",
-  "version": "0.1.0",
-  "description": "Nanoexpress adapter for nest",
+  "name": "@nestjs-extended/monorepo",
+  "version": "0.0.0",
+  "private": true,
+  "description": "Nest.js extensions",
   "type": "module",
   "author": "Ewan Roh (asomethings@kakao.com)",
   "types": "./dist/index.d.ts",
   "exports": "./dist/index.js",
   "license": "MIT",
   "scripts": {
-    "rollup": "rollup --config rollup.config.ts --configPlugin typescript",
-    "test": "ava",
-    "coverage": "c8 -r json pnpm test",
-    "lint": "eslint . --ext .ts --quiet",
+    "rollup": "pnpm -r rollup",
+    "test": "pnpm -r test",
+    "coverage": "pnpm -r coverage",
+    "lint": "pnpm -r lint",
     "benchmark": "node --no-warnings --loader ts-node/esm --experimental-specifier-resolution=node benchmarks/run.ts"
   },
   "engines": {
     "node": ">=14"
   },
-  "dependencies": {
-    "@nanoexpress/middleware-file-upload": "^1.0.4",
-    "@nanoexpress/middleware-static-serve": "^1.0.3",
-    "cors": "^2.8.5",
-    "nanoexpress": "^5.1.0"
-  },
   "devDependencies": {
     "@commitlint/cli": "13.1.0",
     "@commitlint/config-conventional": "13.1.0",
-    "@nestjs/common": "8.0.6",
-    "@nestjs/core": "8.0.6",
-    "@nestjs/platform-express": "^8.0.6",
-    "@nestjs/platform-fastify": "^8.0.6",
     "@rollup/plugin-typescript": "8.2.5",
     "@types/autocannon": "4.1.1",
     "@types/cors": "2.8.12",
@@ -43,9 +34,7 @@
     "eslint": "7.32.0",
     "eslint-config-prettier": "8.3.0",
     "eslint-plugin-prettier": "4.0.0",
-    "got": "11.8.2",
     "husky": "7.0.2",
-    "mustache-express": "1.3.2",
     "prettier": "2.4.0",
     "prettier-plugin-organize-imports": "2.3.3",
     "reflect-metadata": "0.1.13",
@@ -57,22 +46,5 @@
     "ts-toolbelt": "9.6.0",
     "tslib": "2.3.1",
     "typescript": "4.4.3"
-  },
-  "peerDependencies": {
-    "@nestjs/common": "^8.0.0",
-    "@nestjs/core": "^8.0.0"
-  },
-  "ava": {
-    "extensions": {
-      "ts": "module"
-    },
-    "nonSemVerExperiments": {
-      "configurableModuleFormat": true
-    },
-    "nodeArguments": [
-      "--no-warnings",
-      "--loader=ts-node/esm",
-      "--experimental-specifier-resolution=node"
-    ]
   }
 }

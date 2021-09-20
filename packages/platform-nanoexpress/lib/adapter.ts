@@ -126,12 +126,12 @@ export class NanoexpressAdapter extends AbstractHttpAdapter<
     }
 
     if (isFunction(callback)) {
-      this.instance.listen(port, callbackOrHost).then(() => {
+      this.instance.listen(port, callbackOrHost as string).then(() => {
         callback && callback()
       })
     }
 
-    return this.instance.listen(port, callbackOrHost)
+    return this.instance.listen(port, callbackOrHost as string)
   }
 
   public close(): boolean {

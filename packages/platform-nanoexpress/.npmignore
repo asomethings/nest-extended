@@ -1,0 +1,6 @@
+lib
+node_modules
+tsconfig.json
+pnpm-lock.yaml
+rollup.config.ts
+tsconfig.build.json
