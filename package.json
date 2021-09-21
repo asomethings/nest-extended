@@ -9,7 +9,7 @@
   "exports": "./dist/index.js",
   "license": "MIT",
   "scripts": {
-    "prerelease": "pnpm lint && pnpm rollup",
+    "prerelease": "rimraf  packages/*/dist && pnpm lint && pnpm rollup",
     "rollup": "pnpm -r rollup",
     "test": "pnpm -r test",
     "coverage": "pnpm -r coverage",
