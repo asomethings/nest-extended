@@ -69,10 +69,10 @@ importers:
     specifiers:
       '@nanoexpress/middleware-file-upload': ^1.0.4
       '@nanoexpress/middleware-static-serve': ^1.0.3
-      '@nestjs/common': 8.0.8
-      '@nestjs/core': 8.0.8
-      '@nestjs/platform-express': 8.0.8
-      '@nestjs/platform-fastify': 8.0.8
+      '@nestjs/common': 8.0.9
+      '@nestjs/core': 8.0.9
+      '@nestjs/platform-express': 8.0.9
+      '@nestjs/platform-fastify': 8.0.9
       '@types/cors': 2.8.12
       '@types/mustache-express': 1.2.1
       cors: ^2.8.5
@@ -85,10 +85,10 @@ importers:
       cors: 2.8.5
       nanoexpress: 5.1.0
     devDependencies:
-      '@nestjs/common': 8.0.8_486826780eeff986d3746a62b5df4b6b
-      '@nestjs/core': 8.0.8_f54979c0538471f0f4e862067de6cf49
-      '@nestjs/platform-express': 8.0.8_61908e75f4dd8dc2f9466dcaab625c65
-      '@nestjs/platform-fastify': 8.0.8_61908e75f4dd8dc2f9466dcaab625c65
+      '@nestjs/common': 8.0.9_486826780eeff986d3746a62b5df4b6b
+      '@nestjs/core': 8.0.9_4524e5af4121e95afe63bd902a119bba
+      '@nestjs/platform-express': 8.0.9_55bf2f8ded7f9ef3f4ad0a170ebe4ad4
+      '@nestjs/platform-fastify': 8.0.9_55bf2f8ded7f9ef3f4ad0a170ebe4ad4
       '@types/cors': 2.8.12
       '@types/mustache-express': 1.2.1
       got: 11.8.2
@@ -567,8 +567,8 @@ packages:
     engines: {node: '>=12.16.0'}
     dev: false
 
-  /@nestjs/common/8.0.8_486826780eeff986d3746a62b5df4b6b:
-    resolution: {integrity: sha512-dodw4GEcdPaLw/1QKMuqy31WtFyl8bqrxkkEL3y6rDVdk5Mm6xdCoBibKigZXjwzC7vL7BN6kK2Tlnak7v7kHw==}
+  /@nestjs/common/8.0.9_486826780eeff986d3746a62b5df4b6b:
+    resolution: {integrity: sha512-Y3DQxOD57suyvMURpgqX0IBFliMZZNvp1bhvjzjU376Igh33NIz18xhxV9EKe+F0EHHawyM3cv1ZEGYi0yGrtQ==}
     peerDependencies:
       cache-manager: '*'
       class-transformer: '*'
@@ -593,8 +593,8 @@ packages:
       - debug
     dev: true
 
-  /@nestjs/core/8.0.8_f54979c0538471f0f4e862067de6cf49:
-    resolution: {integrity: sha512-KD6A0EShox5GpMakZeNz1zslZYnqOnXI4o3X02FFTv5XkSqA3t9bS6lZueuf5WAfaGojizosHqka96K85PdNBg==}
+  /@nestjs/core/8.0.9_4524e5af4121e95afe63bd902a119bba:
+    resolution: {integrity: sha512-Q8bge+yuFzcuW9iY5fiMz3gydyB3D25dO9/YFGEtHexw2ipQA1QCt94XfIxGqFe1C07k5IDSK/C/l+R33CHrGg==}
     requiresBuild: true
     peerDependencies:
       '@nestjs/common': ^8.0.0
@@ -611,8 +611,8 @@ packages:
       '@nestjs/websockets':
         optional: true
     dependencies:
-      '@nestjs/common': 8.0.8_486826780eeff986d3746a62b5df4b6b
-      '@nestjs/platform-express': 8.0.8_61908e75f4dd8dc2f9466dcaab625c65
+      '@nestjs/common': 8.0.9_486826780eeff986d3746a62b5df4b6b
+      '@nestjs/platform-express': 8.0.9_55bf2f8ded7f9ef3f4ad0a170ebe4ad4
       '@nuxtjs/opencollective': 0.3.2
       fast-safe-stringify: 2.1.1
       iterare: 1.2.1
@@ -624,14 +624,14 @@ packages:
       uuid: 8.3.2
     dev: true
 
-  /@nestjs/platform-express/8.0.8_61908e75f4dd8dc2f9466dcaab625c65:
-    resolution: {integrity: sha512-9GLeexmIRBudBZaxpfKEsCmPyPzLc+0PmhmydjfxkxXC+I998kBPDK/2UbObfK9RCTtHF1zv0mOMSwiOWRvkYg==}
+  /@nestjs/platform-express/8.0.9_55bf2f8ded7f9ef3f4ad0a170ebe4ad4:
+    resolution: {integrity: sha512-J21FqDZytpMh3NeZFDrBqn8rhcLbySVUNdCqhgFkSPnNCzTDyogbUKDMCIDCo5Y/114T3GFFR+cFbp9aabRd7Q==}
     peerDependencies:
       '@nestjs/common': ^8.0.0
       '@nestjs/core': ^8.0.0
     dependencies:
-      '@nestjs/common': 8.0.8_486826780eeff986d3746a62b5df4b6b
-      '@nestjs/core': 8.0.8_f54979c0538471f0f4e862067de6cf49
+      '@nestjs/common': 8.0.9_486826780eeff986d3746a62b5df4b6b
+      '@nestjs/core': 8.0.9_4524e5af4121e95afe63bd902a119bba
       body-parser: 1.19.0
       cors: 2.8.5
       express: 4.17.1
@@ -639,14 +639,14 @@ packages:
       tslib: 2.3.1
     dev: true
 
-  /@nestjs/platform-fastify/8.0.8_61908e75f4dd8dc2f9466dcaab625c65:
-    resolution: {integrity: sha512-XhNQ8K6OmPEQvxXyZk2Rb43NSXnKYecq7ijOj+PnycR0vgT/jpB+ynqHLTt56nY4td5wcoPBmCuAfDcJwY25BQ==}
+  /@nestjs/platform-fastify/8.0.9_55bf2f8ded7f9ef3f4ad0a170ebe4ad4:
+    resolution: {integrity: sha512-tv3BZvl8MekKYUWQQfT1TPztoJ5B8B3COboHWXRYtLns/6ntEL+rcJV4i0VLNGqDh1zBN1Qof5lIc47yQXN0zw==}
     peerDependencies:
       '@nestjs/common': ^8.0.0
       '@nestjs/core': ^8.0.0
     dependencies:
-      '@nestjs/common': 8.0.8_486826780eeff986d3746a62b5df4b6b
-      '@nestjs/core': 8.0.8_f54979c0538471f0f4e862067de6cf49
+      '@nestjs/common': 8.0.9_486826780eeff986d3746a62b5df4b6b
+      '@nestjs/core': 8.0.9_4524e5af4121e95afe63bd902a119bba
       fastify: 3.21.6
       fastify-cors: 6.0.2
       fastify-formbody: 5.1.0
