@@ -27,7 +27,7 @@ importers:
       rimraf: 3.0.2
       rollup: 2.58.0
       rollup-plugin-terser: 7.0.2
-      rxjs: 7.3.0
+      rxjs: 7.3.1
       source-map-support: 0.5.20
       ts-node: 10.2.1
       ts-toolbelt: 9.6.0
@@ -58,7 +58,7 @@ importers:
       rimraf: 3.0.2
       rollup: 2.58.0
       rollup-plugin-terser: 7.0.2_rollup@2.58.0
-      rxjs: 7.3.0
+      rxjs: 7.3.1
       source-map-support: 0.5.20
       ts-node: 10.2.1_c51a13cfa2c3195bf611f1652e33c9c1
       ts-toolbelt: 9.6.0
@@ -85,8 +85,8 @@ importers:
       cors: 2.8.5
       nanoexpress: 5.1.0
     devDependencies:
-      '@nestjs/common': 8.0.9_486826780eeff986d3746a62b5df4b6b
-      '@nestjs/core': 8.0.9_4524e5af4121e95afe63bd902a119bba
+      '@nestjs/common': 8.0.9_fc03343260ad7d5e42407ec402f4b5b1
+      '@nestjs/core': 8.0.9_84c72fe2d2f93cb7dc52b1203ec9d8bb
       '@nestjs/platform-express': 8.0.9_55bf2f8ded7f9ef3f4ad0a170ebe4ad4
       '@nestjs/platform-fastify': 8.0.9_55bf2f8ded7f9ef3f4ad0a170ebe4ad4
       '@types/cors': 2.8.12
@@ -567,7 +567,7 @@ packages:
     engines: {node: '>=12.16.0'}
     dev: false
 
-  /@nestjs/common/8.0.9_486826780eeff986d3746a62b5df4b6b:
+  /@nestjs/common/8.0.9_fc03343260ad7d5e42407ec402f4b5b1:
     resolution: {integrity: sha512-Y3DQxOD57suyvMURpgqX0IBFliMZZNvp1bhvjzjU376Igh33NIz18xhxV9EKe+F0EHHawyM3cv1ZEGYi0yGrtQ==}
     peerDependencies:
       cache-manager: '*'
@@ -586,14 +586,14 @@ packages:
       axios: 0.21.4
       iterare: 1.2.1
       reflect-metadata: 0.1.13
-      rxjs: 7.3.0
+      rxjs: 7.3.1
       tslib: 2.3.1
       uuid: 8.3.2
     transitivePeerDependencies:
       - debug
     dev: true
 
-  /@nestjs/core/8.0.9_4524e5af4121e95afe63bd902a119bba:
+  /@nestjs/core/8.0.9_84c72fe2d2f93cb7dc52b1203ec9d8bb:
     resolution: {integrity: sha512-Q8bge+yuFzcuW9iY5fiMz3gydyB3D25dO9/YFGEtHexw2ipQA1QCt94XfIxGqFe1C07k5IDSK/C/l+R33CHrGg==}
     requiresBuild: true
     peerDependencies:
@@ -611,7 +611,7 @@ packages:
       '@nestjs/websockets':
         optional: true
     dependencies:
-      '@nestjs/common': 8.0.9_486826780eeff986d3746a62b5df4b6b
+      '@nestjs/common': 8.0.9_fc03343260ad7d5e42407ec402f4b5b1
       '@nestjs/platform-express': 8.0.9_55bf2f8ded7f9ef3f4ad0a170ebe4ad4
       '@nuxtjs/opencollective': 0.3.2
       fast-safe-stringify: 2.1.1
@@ -619,7 +619,7 @@ packages:
       object-hash: 2.2.0
       path-to-regexp: 3.2.0
       reflect-metadata: 0.1.13
-      rxjs: 7.3.0
+      rxjs: 7.3.1
       tslib: 2.3.1
       uuid: 8.3.2
     dev: true
@@ -630,8 +630,8 @@ packages:
       '@nestjs/common': ^8.0.0
       '@nestjs/core': ^8.0.0
     dependencies:
-      '@nestjs/common': 8.0.9_486826780eeff986d3746a62b5df4b6b
-      '@nestjs/core': 8.0.9_4524e5af4121e95afe63bd902a119bba
+      '@nestjs/common': 8.0.9_fc03343260ad7d5e42407ec402f4b5b1
+      '@nestjs/core': 8.0.9_84c72fe2d2f93cb7dc52b1203ec9d8bb
       body-parser: 1.19.0
       cors: 2.8.5
       express: 4.17.1
@@ -645,8 +645,8 @@ packages:
       '@nestjs/common': ^8.0.0
       '@nestjs/core': ^8.0.0
     dependencies:
-      '@nestjs/common': 8.0.9_486826780eeff986d3746a62b5df4b6b
-      '@nestjs/core': 8.0.9_4524e5af4121e95afe63bd902a119bba
+      '@nestjs/common': 8.0.9_fc03343260ad7d5e42407ec402f4b5b1
+      '@nestjs/core': 8.0.9_84c72fe2d2f93cb7dc52b1203ec9d8bb
       fastify: 3.21.6
       fastify-cors: 6.0.2
       fastify-formbody: 5.1.0
@@ -4864,8 +4864,8 @@ packages:
     dependencies:
       queue-microtask: 1.2.3
 
-  /rxjs/7.3.0:
-    resolution: {integrity: sha512-p2yuGIg9S1epc3vrjKf6iVb3RCaAYjYskkO+jHIaV0IjOPlJop4UnodOoFb2xeNwlguqLYvGw1b1McillYb5Gw==}
+  /rxjs/7.3.1:
+    resolution: {integrity: sha512-vNenx7gqjPyeKpRnM6S5Ksm/oFTRijWWzYlRON04KaehZ3YjDwEmVjGUGo0TKWVjeNXOujVRlh0K1drUbcdPkw==}
     dependencies:
       tslib: 2.1.0
     dev: true
