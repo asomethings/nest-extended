@@ -29,7 +29,7 @@ importers:
       rollup-plugin-terser: 7.0.2
       rxjs: 7.4.0
       source-map-support: 0.5.20
-      ts-node: 10.3.0
+      ts-node: 10.4.0
       ts-toolbelt: 9.6.0
       tslib: 2.3.1
       typescript: 4.4.4
@@ -60,7 +60,7 @@ importers:
       rollup-plugin-terser: 7.0.2_rollup@2.58.0
       rxjs: 7.4.0
       source-map-support: 0.5.20
-      ts-node: 10.3.0_e3a6d03856ea4ec83bf2e0c3b647a57e
+      ts-node: 10.4.0_e3a6d03856ea4ec83bf2e0c3b647a57e
       ts-toolbelt: 9.6.0
       tslib: 2.3.1
       typescript: 4.4.4
@@ -5417,8 +5417,8 @@ packages:
     resolution: {integrity: sha1-n5up2e+odkw4dpi8v+sshI8RrbM=}
     engines: {node: '>=0.10.0'}
 
-  /ts-node/10.3.0_e3a6d03856ea4ec83bf2e0c3b647a57e:
-    resolution: {integrity: sha512-RYIy3i8IgpFH45AX4fQHExrT8BxDeKTdC83QFJkNzkvt8uFB6QJ8XMyhynYiKMLxt9a7yuXaDBZNOYS3XjDcYw==}
+  /ts-node/10.4.0_e3a6d03856ea4ec83bf2e0c3b647a57e:
+    resolution: {integrity: sha512-g0FlPvvCXSIO1JDF6S232P5jPYqBkRL9qly81ZgAOSU7rwI0stphCgd2kLiCrU9DjQCrJMWEqcNSjQL02s6d8A==}
     hasBin: true
     peerDependencies:
       '@swc/core': '>=1.2.50'
