@@ -45,7 +45,7 @@
     "prettier-plugin-organize-imports": "2.3.4",
     "reflect-metadata": "0.1.13",
     "rimraf": "3.0.2",
-    "rollup": "2.58.1",
+    "rollup": "2.58.3",
     "rollup-plugin-terser": "7.0.2",
     "rxjs": "7.4.0",
     "source-map-support": "0.5.20",
