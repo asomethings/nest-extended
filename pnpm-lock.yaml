@@ -76,7 +76,7 @@ importers:
       '@types/cors': 2.8.12
       '@types/mustache-express': 1.2.1
       cors: ^2.8.5
-      got: 11.8.2
+      got: 11.8.3
       mustache-express: 1.3.2
       nanoexpress: ^5.1.0
     dependencies:
@@ -91,7 +91,7 @@ importers:
       '@nestjs/platform-fastify': 8.2.1_ff873512c3369c40b8c5889da8731f97
       '@types/cors': 2.8.12
       '@types/mustache-express': 1.2.1
-      got: 11.8.2
+      got: 11.8.3
       mustache-express: 1.3.2
 
 packages:
@@ -951,7 +951,7 @@ packages:
     dependencies:
       '@types/http-cache-semantics': 4.0.1
       '@types/keyv': 3.1.2
-      '@types/node': 16.9.1
+      '@types/node': 16.11.7
       '@types/responselike': 1.0.0
     dev: true
 
@@ -978,7 +978,7 @@ packages:
   /@types/keyv/3.1.2:
     resolution: {integrity: sha512-/FvAK2p4jQOaJ6CGDHJTqZcUtbZe820qIeTg7o0Shg7drB4JHeL+V/dhSaly7NXx6u8eSee+r7coT+yuJEvDLg==}
     dependencies:
-      '@types/node': 16.9.1
+      '@types/node': 16.11.7
     dev: true
 
   /@types/lru-cache/4.1.3:
@@ -1002,10 +1002,6 @@ packages:
     resolution: {integrity: sha512-QB5D2sqfSjCmTuWcBWyJ+/44bcjO7VbjSbOE0ucoVbAsSNQc4Lt6QkgkVXkTDwkL4z/beecZNDvVX15D4P8Jbw==}
     dev: true
 
-  /@types/node/16.9.1:
-    resolution: {integrity: sha512-QpLcX9ZSsq3YYUUnD3nFDY8H7wctAhQj/TFKL8Ya8v5fMm3CFXxo8zStsLAl780ltoYoo1WvKUVGBQK+1ifr7g==}
-    dev: true
-
   /@types/normalize-package-data/2.4.1:
     resolution: {integrity: sha512-Gj7cI7z+98M282Tqmp2K5EIsoouUEzbBJhQQzDE3jSIRk6r9gsz0oUokqIUR4u1R3dMHo0pDHM7sNOHyhulypw==}
 
@@ -1015,7 +1011,7 @@ packages:
   /@types/responselike/1.0.0:
     resolution: {integrity: sha512-85Y2BjiufFzaMIlvJDvTTB8Fxl2xfLo4HgmHzVBz08w4wDePCTjYw66PdrolO0kzli3yam/YCgRufyo1DdQVTA==}
     dependencies:
-      '@types/node': 16.9.1
+      '@types/node': 16.11.7
     dev: true
 
   /@types/retry/0.12.1:
@@ -2985,8 +2981,8 @@ packages:
       merge2: 1.4.1
       slash: 3.0.0
 
-  /got/11.8.2:
-    resolution: {integrity: sha512-D0QywKgIe30ODs+fm8wMZiAcZjypcCodPNuMz5H9Mny7RJ+IjJ10BdmGW7OM7fHXP+O7r6ZwapQ/YQmMSvB0UQ==}
+  /got/11.8.3:
+    resolution: {integrity: sha512-7gtQ5KiPh1RtGS9/Jbv1ofDpBFuq42gyfEib+ejaRBJuj/3tQFeR5+gw57e4ipaU8c/rCjvX6fkQz2lyDlGAOg==}
     engines: {node: '>=10.19.0'}
     dependencies:
       '@sindresorhus/is': 4.0.1
