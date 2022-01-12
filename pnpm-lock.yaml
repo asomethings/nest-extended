@@ -14,7 +14,7 @@ importers:
       '@types/node': 16.11.19
       '@typescript-eslint/eslint-plugin': 5.9.1
       '@typescript-eslint/parser': 5.9.1
-      autocannon: 7.5.1
+      autocannon: 7.6.0
       ava: 3.15.0
       c8: 7.11.0
       eslint: 8.6.0
@@ -45,7 +45,7 @@ importers:
       '@types/node': 16.11.19
       '@typescript-eslint/eslint-plugin': 5.9.1_b7b2e42b32ee097737cd3e626b10847b
       '@typescript-eslint/parser': 5.9.1_eslint@8.6.0+typescript@4.5.4
-      autocannon: 7.5.1
+      autocannon: 7.6.0
       ava: 3.15.0
       c8: 7.11.0
       eslint: 8.6.0
@@ -96,8 +96,8 @@ importers:
 
 packages:
 
-  /@assemblyscript/loader/0.10.1:
-    resolution: {integrity: sha512-H71nDOOL8Y7kWRLqf6Sums+01Q5msqBW2KhDUTemh1tvY04eSkSXrK0uj/4mmY0Xr16/3zyZmsrxN7CKuRbNRg==}
+  /@assemblyscript/loader/0.19.22:
+    resolution: {integrity: sha512-ksrMVpPOatD7ZzXCw+c/g3zId5rm8MMnQe7P32dH/qtDrgT9SbQjJYEngRP0YhRF0qrBCga2PtpID7arqphGyg==}
     dev: true
 
   /@babel/code-frame/7.14.5:
@@ -1368,8 +1368,8 @@ packages:
     engines: {node: '>=8.0.0'}
     dev: true
 
-  /autocannon/7.5.1:
-    resolution: {integrity: sha512-d66F31riFsclURyxH+1N4SSBS6EmpjUXJ6W0Xa1BV/Dwi4xjAvkPgyOcAfhf4kNHIgVXCZtdu9Sy97SpKDBgIg==}
+  /autocannon/7.6.0:
+    resolution: {integrity: sha512-p/E4/a1vLxMWOCeiIj6/WEQ2C6nseaCDcVIa3lXdjJ5xtfF/TNWl+UVvpXcwzXGXt/lOq8v1NGnkslqCwgf4Hw==}
     hasBin: true
     dependencies:
       chalk: 4.1.2
@@ -1379,11 +1379,13 @@ packages:
       cross-argv: 2.0.0
       form-data: 4.0.0
       has-async-hooks: 1.0.0
-      hdr-histogram-js: 2.0.1
+      hdr-histogram-js: 3.0.0
       hdr-histogram-percentiles-obj: 3.0.0
       http-parser-js: 0.5.3
-      hyperid: 2.3.1
+      hyperid: 3.0.0
+      lodash.chunk: 4.2.0
       lodash.clonedeep: 4.5.0
+      lodash.flatten: 4.4.0
       manage-path: 2.0.0
       on-net-listen: 1.1.2
       pretty-bytes: 5.6.0
@@ -3131,10 +3133,11 @@ packages:
     dependencies:
       function-bind: 1.1.1
 
-  /hdr-histogram-js/2.0.1:
-    resolution: {integrity: sha512-uPZxl1dAFnjUFHWLZmt93vUUvtHeaBay9nVNHu38SdOjMSF/4KqJUqa1Seuj08ptU1rEb6AHvB41X8n/zFZ74Q==}
+  /hdr-histogram-js/3.0.0:
+    resolution: {integrity: sha512-/EpvQI2/Z98mNFYEnlqJ8Ogful8OpArLG/6Tf2bPnkutBVLIeMVNHjk1ZDfshF2BUweipzbk+dB1hgSB7SIakw==}
+    engines: {node: '>=14'}
     dependencies:
-      '@assemblyscript/loader': 0.10.1
+      '@assemblyscript/loader': 0.19.22
       base64-js: 1.5.1
       pako: 1.0.11
     dev: true
@@ -3250,8 +3253,8 @@ packages:
     hasBin: true
     dev: true
 
-  /hyperid/2.3.1:
-    resolution: {integrity: sha512-mIbI7Ymn6MCdODaW1/6wdf5lvvXzmPsARN4zTLakMmcziBOuP4PxCBJvHF6kbAIHX6H4vAELx/pDmt0j6Th5RQ==}
+  /hyperid/3.0.0:
+    resolution: {integrity: sha512-vwl5ARjv9KGKphUpKrNlCpH6oC3qnlCxz7WRG24h53MvkWGit2Iwbv/H8usILbMohBsaRgs8Ieumgy7+oafuyw==}
     dependencies:
       uuid: 8.3.2
       uuid-parse: 1.1.0
@@ -3722,6 +3725,10 @@ packages:
     resolution: {integrity: sha1-+CbJtOKoUR2E46yinbBeGk87cqk=}
     dev: false
 
+  /lodash.chunk/4.2.0:
+    resolution: {integrity: sha1-ZuXOH3btJ7QwPYxlEujRIW6BBrw=}
+    dev: true
+
   /lodash.clonedeep/4.5.0:
     resolution: {integrity: sha1-4j8/nE+Pvd6HJSnBBxhXoIblzO8=}
     dev: true
@@ -3729,6 +3736,10 @@ packages:
   /lodash.escaperegexp/4.1.2:
     resolution: {integrity: sha1-ZHYsSGGAglGKw99Mz11YhtriA0c=}
     dev: false
+
+  /lodash.flatten/4.4.0:
+    resolution: {integrity: sha1-8xwiIlqWMtK7+OSt2+8kCqdlph8=}
+    dev: true
 
   /lodash.ismatch/4.4.0:
     resolution: {integrity: sha1-dWy1FQyjum8RCFp4hJZF8Yj4Xzc=}
