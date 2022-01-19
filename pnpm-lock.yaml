@@ -5,7 +5,7 @@ importers:
   .:
     specifiers:
       '@changesets/cli': 2.17.0
-      '@commitlint/cli': 16.0.2
+      '@commitlint/cli': 16.0.3
       '@commitlint/config-conventional': 16.0.0
       '@rollup/plugin-typescript': 8.3.0
       '@types/autocannon': 4.1.1
@@ -36,7 +36,7 @@ importers:
     dependencies:
       '@changesets/cli': 2.17.0
     devDependencies:
-      '@commitlint/cli': 16.0.2_@types+node@16.11.21
+      '@commitlint/cli': 16.0.3_@types+node@16.11.21
       '@commitlint/config-conventional': 16.0.0
       '@rollup/plugin-typescript': 8.3.0_a3d339f058ae578f262973abedaa320c
       '@types/autocannon': 4.1.1
@@ -299,8 +299,8 @@ packages:
       prettier: 1.19.1
     dev: false
 
-  /@commitlint/cli/16.0.2_@types+node@16.11.21:
-    resolution: {integrity: sha512-Jt7iaBjoLGC5Nq4dHPTvTYnqPGkElFPBtTXTvBpTgatZApczyjI2plE0oG4GYWPp1suHIS/VdVDOMpPZjGVusg==}
+  /@commitlint/cli/16.0.3_@types+node@16.11.21:
+    resolution: {integrity: sha512-SB1od4/1ek5SShNKjKgUdpqiVNulNVgCkjkV4Zz9zLKrxn3sPcgvXMQNh/wy0/T4WPUVgHrHGcxWYOYXxrGwpg==}
     engines: {node: '>=v12'}
     hasBin: true
     dependencies:
