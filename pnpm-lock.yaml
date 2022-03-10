@@ -8,7 +8,7 @@ importers:
       '@commitlint/cli': 16.2.1
       '@commitlint/config-conventional': 16.2.1
       '@rollup/plugin-typescript': 8.3.1
-      '@types/autocannon': 4.1.1
+      '@types/autocannon': 7.6.0
       '@types/cors': 2.8.12
       '@types/mustache-express': 1.2.1
       '@types/node': 16.11.26
@@ -39,7 +39,7 @@ importers:
       '@commitlint/cli': 16.2.1
       '@commitlint/config-conventional': 16.2.1
       '@rollup/plugin-typescript': 8.3.1_41ab6d1a9136403886ea2fa83d07712f
-      '@types/autocannon': 4.1.1
+      '@types/autocannon': 7.6.0
       '@types/cors': 2.8.12
       '@types/mustache-express': 1.2.1
       '@types/node': 16.11.26
@@ -943,8 +943,8 @@ packages:
     resolution: {integrity: sha512-eZxlbI8GZscaGS7kkc/trHTT5xgrjH3/1n2JDwusC9iahPKWMRvRjJSAN5mCXviuTGQ/lHnhvv8Q1YTpnfz9gA==}
     dev: true
 
-  /@types/autocannon/4.1.1:
-    resolution: {integrity: sha512-VMwPSP6i6SWrSbF2CrjXy/UTt9dU6oJMwDudUVjoAyUqK6YgK5llES84leqyM324Gr1nhuJhDpenvgYYdWF4gQ==}
+  /@types/autocannon/7.6.0:
+    resolution: {integrity: sha512-CyfVlqCfZxoWGJT6pF2KEvKW5Hn51dJwx4TGw0+CPXyRJNa6DuebZKU7nwjxpBMVxyKVOY4Hi1PNy4MsEZbfLw==}
     dependencies:
       '@types/node': 16.11.26
     dev: true
