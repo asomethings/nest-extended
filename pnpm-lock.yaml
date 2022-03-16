@@ -14,7 +14,7 @@ importers:
       '@types/node': 16.11.26
       '@typescript-eslint/eslint-plugin': 5.15.0
       '@typescript-eslint/parser': 5.15.0
-      autocannon: 7.7.0
+      autocannon: 7.7.1
       ava: 3.15.0
       c8: 7.11.0
       eslint: 8.11.0
@@ -45,7 +45,7 @@ importers:
       '@types/node': 16.11.26
       '@typescript-eslint/eslint-plugin': 5.15.0_f2c49ce7d0e93ebcfdb4b7d25b131b28
       '@typescript-eslint/parser': 5.15.0_eslint@8.11.0+typescript@4.6.2
-      autocannon: 7.7.0
+      autocannon: 7.7.1
       ava: 3.15.0
       c8: 7.11.0
       eslint: 8.11.0
@@ -1368,8 +1368,8 @@ packages:
     engines: {node: '>=8.0.0'}
     dev: true
 
-  /autocannon/7.7.0:
-    resolution: {integrity: sha512-mcIoiROal9V9QN7Av932+dcDtV/uvdePpd/oa04g178D/u+E6np+s5nvubglbSjq9fZtMyg/DJPMqcMXSdZTnw==}
+  /autocannon/7.7.1:
+    resolution: {integrity: sha512-xUZ5Fl7xVYlRLHngkzZ8oARksPSPVrytxMrX1KBZoivPU7OH/SuLbbpnuIUr1EH+Qy5Pe2c32lHylNf3TCsrRQ==}
     hasBin: true
     dependencies:
       chalk: 4.1.2
@@ -2861,7 +2861,7 @@ packages:
     dependencies:
       asynckit: 0.4.0
       combined-stream: 1.0.8
-      mime-types: 2.1.32
+      mime-types: 2.1.34
     dev: true
 
   /forwarded/0.2.0:
@@ -3900,21 +3900,9 @@ packages:
       reusify: 1.0.4
     dev: true
 
-  /mime-db/1.49.0:
-    resolution: {integrity: sha512-CIc8j9URtOVApSFCQIF+VBkX1RwXp/oMMOrqdyXSBXq5RWNEsRfyj1kiRnQgmNXmHxPoFIxOroKA3zcU9P+nAA==}
-    engines: {node: '>= 0.6'}
-    dev: true
-
   /mime-db/1.51.0:
     resolution: {integrity: sha512-5y8A56jg7XVQx2mbv1lu49NR4dokRnhZYTtL+KGfaa27uq4pSTXkwQkFJl4pkRMyNFz/EtYDSkiiEHx3F7UN6g==}
     engines: {node: '>= 0.6'}
-    dev: true
-
-  /mime-types/2.1.32:
-    resolution: {integrity: sha512-hJGaVS4G4c9TSMYh2n6SQAGrC4RnfU+daP8G7cSCmaqNjiOoUY0VHCMS42pxnQmVF1GWwFhbHWn3RIxCqTmZ9A==}
-    engines: {node: '>= 0.6'}
-    dependencies:
-      mime-db: 1.49.0
     dev: true
 
   /mime-types/2.1.34:
