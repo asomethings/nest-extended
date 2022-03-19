@@ -8,13 +8,13 @@ importers:
       '@commitlint/cli': 16.2.3
       '@commitlint/config-conventional': 16.2.1
       '@rollup/plugin-typescript': 8.3.1
-      '@types/autocannon': 7.6.0
+      '@types/autocannon': 7.6.1
       '@types/cors': 2.8.12
       '@types/mustache-express': 1.2.1
       '@types/node': 16.11.26
       '@typescript-eslint/eslint-plugin': 5.15.0
       '@typescript-eslint/parser': 5.15.0
-      autocannon: 7.7.1
+      autocannon: 7.7.2
       ava: 3.15.0
       c8: 7.11.0
       eslint: 8.11.0
@@ -39,13 +39,13 @@ importers:
       '@commitlint/cli': 16.2.3
       '@commitlint/config-conventional': 16.2.1
       '@rollup/plugin-typescript': 8.3.1_859e05ab655ea3c900a5f26a0311c0b5
-      '@types/autocannon': 7.6.0
+      '@types/autocannon': 7.6.1
       '@types/cors': 2.8.12
       '@types/mustache-express': 1.2.1
       '@types/node': 16.11.26
       '@typescript-eslint/eslint-plugin': 5.15.0_f2c49ce7d0e93ebcfdb4b7d25b131b28
       '@typescript-eslint/parser': 5.15.0_eslint@8.11.0+typescript@4.6.2
-      autocannon: 7.7.1
+      autocannon: 7.7.2
       ava: 3.15.0
       c8: 7.11.0
       eslint: 8.11.0
@@ -943,8 +943,8 @@ packages:
     resolution: {integrity: sha512-eZxlbI8GZscaGS7kkc/trHTT5xgrjH3/1n2JDwusC9iahPKWMRvRjJSAN5mCXviuTGQ/lHnhvv8Q1YTpnfz9gA==}
     dev: true
 
-  /@types/autocannon/7.6.0:
-    resolution: {integrity: sha512-CyfVlqCfZxoWGJT6pF2KEvKW5Hn51dJwx4TGw0+CPXyRJNa6DuebZKU7nwjxpBMVxyKVOY4Hi1PNy4MsEZbfLw==}
+  /@types/autocannon/7.6.1:
+    resolution: {integrity: sha512-EzfaH5pdafJKaToqR8BMA1VTgfoaRe9MZwajt/u8vna976FMTQ4FcULw1HGxEGl5mJnAFC6HHq4C2ZO0I0gPAg==}
     dependencies:
       '@types/node': 16.11.26
     dev: true
@@ -1368,8 +1368,8 @@ packages:
     engines: {node: '>=8.0.0'}
     dev: true
 
-  /autocannon/7.7.1:
-    resolution: {integrity: sha512-xUZ5Fl7xVYlRLHngkzZ8oARksPSPVrytxMrX1KBZoivPU7OH/SuLbbpnuIUr1EH+Qy5Pe2c32lHylNf3TCsrRQ==}
+  /autocannon/7.7.2:
+    resolution: {integrity: sha512-2hluBHM3B6QzFJSUgi6h+ihx7e16tP2icuWZo7G8sfzG7eg7O+fAyvI7hgOo48tqieujkmvkpfwsZiMCIBUfKA==}
     hasBin: true
     dependencies:
       chalk: 4.1.2
