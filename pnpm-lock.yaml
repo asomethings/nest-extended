@@ -14,7 +14,7 @@ importers:
       '@types/node': 16.11.26
       '@typescript-eslint/eslint-plugin': 5.16.0
       '@typescript-eslint/parser': 5.16.0
-      autocannon: 7.7.2
+      autocannon: 7.8.0
       ava: 3.15.0
       c8: 7.11.0
       eslint: 8.11.0
@@ -45,7 +45,7 @@ importers:
       '@types/node': 16.11.26
       '@typescript-eslint/eslint-plugin': 5.16.0_3fed250b11519414a4c7d52468dd6bf5
       '@typescript-eslint/parser': 5.16.0_eslint@8.11.0+typescript@4.6.2
-      autocannon: 7.7.2
+      autocannon: 7.8.0
       ava: 3.15.0
       c8: 7.11.0
       eslint: 8.11.0
@@ -1368,8 +1368,8 @@ packages:
     engines: {node: '>=8.0.0'}
     dev: true
 
-  /autocannon/7.7.2:
-    resolution: {integrity: sha512-2hluBHM3B6QzFJSUgi6h+ihx7e16tP2icuWZo7G8sfzG7eg7O+fAyvI7hgOo48tqieujkmvkpfwsZiMCIBUfKA==}
+  /autocannon/7.8.0:
+    resolution: {integrity: sha512-7rfUSEHYoieTEghD/N8bNZjNSl3bP8QX228r+VkQBujG6J/olU/dnUJ4kAZrjOjcfs+THWeDEg74W6GYFG5/ng==}
     hasBin: true
     dependencies:
       chalk: 4.1.2
