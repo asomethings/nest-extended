@@ -76,7 +76,7 @@ importers:
       '@types/cors': 2.8.12
       '@types/mustache-express': 1.2.1
       cors: ^2.8.5
-      got: 12.0.2
+      got: 12.0.3
       mustache-express: 1.3.2
       nanoexpress: ^5.1.0
     dependencies:
@@ -91,7 +91,7 @@ importers:
       '@nestjs/platform-fastify': 8.4.3_2da8a9968be4406723e870d9d23c8df0
       '@types/cors': 2.8.12
       '@types/mustache-express': 1.2.1
-      got: 12.0.2
+      got: 12.0.3
       mustache-express: 1.3.2
 
 packages:
@@ -3029,8 +3029,8 @@ packages:
       merge2: 1.4.1
       slash: 3.0.0
 
-  /got/12.0.2:
-    resolution: {integrity: sha512-Zi4yHiqCgaorUbknr/RHFBsC3XqjSodaw0F3qxlqAqyj+OGYZl37/uy01R0qz++KANKQYdY5FHJ0okXZpEzwWQ==}
+  /got/12.0.3:
+    resolution: {integrity: sha512-hmdcXi/S0gcAtDg4P8j/rM7+j3o1Aq6bXhjxkDhRY2ipe7PHpvx/14DgTY2czHOLaGeU8VRvRecidwfu9qdFug==}
     engines: {node: '>=14.16'}
     dependencies:
       '@sindresorhus/is': 4.6.0
