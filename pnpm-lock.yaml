@@ -25,7 +25,7 @@ importers:
       prettier-plugin-organize-imports: 2.3.4
       reflect-metadata: 0.1.13
       rimraf: 3.0.2
-      rollup: 2.71.1
+      rollup: 2.72.1
       rollup-plugin-terser: 7.0.2
       rxjs: 7.5.5
       source-map-support: 0.5.21
@@ -38,7 +38,7 @@ importers:
     devDependencies:
       '@commitlint/cli': 16.2.4
       '@commitlint/config-conventional': 16.2.4
-      '@rollup/plugin-typescript': 8.3.2_720a6ef9590eb3341203a9177a2b9e25
+      '@rollup/plugin-typescript': 8.3.2_1ca3041dc435726c0a8fcb5dcdbe7c94
       '@types/autocannon': 7.6.1
       '@types/cors': 2.8.12
       '@types/mustache-express': 1.2.1
@@ -56,8 +56,8 @@ importers:
       prettier-plugin-organize-imports: 2.3.4_prettier@2.6.2+typescript@4.6.4
       reflect-metadata: 0.1.13
       rimraf: 3.0.2
-      rollup: 2.71.1
-      rollup-plugin-terser: 7.0.2_rollup@2.71.1
+      rollup: 2.72.1
+      rollup-plugin-terser: 7.0.2_rollup@2.72.1
       rxjs: 7.5.5
       source-map-support: 0.5.21
       ts-node: 10.7.0_fd4b5ff48b408bf425abfec4a641da13
@@ -797,7 +797,7 @@ packages:
       '@octokit/openapi-types': 10.1.1
     dev: false
 
-  /@rollup/plugin-typescript/8.3.2_720a6ef9590eb3341203a9177a2b9e25:
+  /@rollup/plugin-typescript/8.3.2_1ca3041dc435726c0a8fcb5dcdbe7c94:
     resolution: {integrity: sha512-MtgyR5LNHZr3GyN0tM7gNO9D0CS+Y+vflS4v/PHmrX17JCkHUYKvQ5jN5o3cz1YKllM3duXUqu3yOHwMPUxhDg==}
     engines: {node: '>=8.0.0'}
     peerDependencies:
@@ -805,14 +805,14 @@ packages:
       tslib: '*'
       typescript: '>=3.7.0'
     dependencies:
-      '@rollup/pluginutils': 3.1.0_rollup@2.71.1
+      '@rollup/pluginutils': 3.1.0_rollup@2.72.1
       resolve: 1.20.0
-      rollup: 2.71.1
+      rollup: 2.72.1
       tslib: 2.4.0
       typescript: 4.6.4
     dev: true
 
-  /@rollup/pluginutils/3.1.0_rollup@2.71.1:
+  /@rollup/pluginutils/3.1.0_rollup@2.72.1:
     resolution: {integrity: sha512-GksZ6pr6TpIjHm8h9lSQ8pi8BE9VeubNT0OMJ3B5uZJ8pz73NPiqOtCog/x2/QzM1ENChPKxMDhiQuRHsqc+lg==}
     engines: {node: '>= 8.0.0'}
     peerDependencies:
@@ -821,7 +821,7 @@ packages:
       '@types/estree': 0.0.39
       estree-walker: 1.0.1
       picomatch: 2.3.0
-      rollup: 2.71.1
+      rollup: 2.72.1
     dev: true
 
   /@semantic-release/commit-analyzer/8.0.1_semantic-release@17.4.7:
@@ -5010,20 +5010,20 @@ packages:
     dependencies:
       glob: 7.1.7
 
-  /rollup-plugin-terser/7.0.2_rollup@2.71.1:
+  /rollup-plugin-terser/7.0.2_rollup@2.72.1:
     resolution: {integrity: sha512-w3iIaU4OxcF52UUXiZNsNeuXIMDvFrr+ZXK6bFZ0Q60qyVfq4uLptoS4bbq3paG3x216eQllFZX7zt6TIImguQ==}
     peerDependencies:
       rollup: ^2.0.0
     dependencies:
       '@babel/code-frame': 7.14.5
       jest-worker: 26.6.2
-      rollup: 2.71.1
+      rollup: 2.72.1
       serialize-javascript: 4.0.0
       terser: 5.7.2
     dev: true
 
-  /rollup/2.71.1:
-    resolution: {integrity: sha512-lMZk3XfUBGjrrZQpvPSoXcZSfKcJ2Bgn+Z0L1MoW2V8Wh7BVM+LOBJTPo16yul2MwL59cXedzW1ruq3rCjSRgw==}
+  /rollup/2.72.1:
+    resolution: {integrity: sha512-NTc5UGy/NWFGpSqF1lFY8z9Adri6uhyMLI6LvPAXdBKoPRFhIIiBUpt+Qg2awixqO3xvzSijjhnb4+QEZwJmxA==}
     engines: {node: '>=10.0.0'}
     hasBin: true
     optionalDependencies:
