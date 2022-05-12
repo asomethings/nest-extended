@@ -43,7 +43,7 @@
     "@nestjs/platform-express": "8.4.4",
     "@nestjs/platform-fastify": "8.4.4",
     "@types/cors": "2.8.12",
-    "@types/mustache-express": "1.2.1"
+    "@types/mustache-express": "1.2.2"
   },
   "ava": {
     "extensions": {
