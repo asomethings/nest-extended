@@ -5,7 +5,7 @@ importers:
   .:
     specifiers:
       '@changesets/cli': 2.17.0
-      '@commitlint/cli': 16.2.4
+      '@commitlint/cli': 16.3.0
       '@commitlint/config-conventional': 16.2.4
       '@rollup/plugin-typescript': 8.3.2
       '@types/autocannon': 7.6.1
@@ -36,7 +36,7 @@ importers:
     dependencies:
       '@changesets/cli': 2.17.0
     devDependencies:
-      '@commitlint/cli': 16.2.4
+      '@commitlint/cli': 16.3.0
       '@commitlint/config-conventional': 16.2.4
       '@rollup/plugin-typescript': 8.3.2_85597b07bb5af8e2d870d848a0cbfc3a
       '@types/autocannon': 7.6.1
@@ -299,14 +299,14 @@ packages:
       prettier: 1.19.1
     dev: false
 
-  /@commitlint/cli/16.2.4:
-    resolution: {integrity: sha512-rbvqvz9JI+uiKxV2nH65BtSU01fsADd3bxe9fWtO3rM0c+CI/H9FfzKkDLvSRmXjvk1G2/wXlCGeqO9IBT4X9g==}
+  /@commitlint/cli/16.3.0:
+    resolution: {integrity: sha512-P+kvONlfsuTMnxSwWE1H+ZcPMY3STFaHb2kAacsqoIkNx66O0T7sTpBxpxkMrFPyhkJiLJnJWMhk4bbvYD3BMA==}
     engines: {node: '>=v12'}
     hasBin: true
     dependencies:
       '@commitlint/format': 16.2.1
       '@commitlint/lint': 16.2.4
-      '@commitlint/load': 16.2.4
+      '@commitlint/load': 16.3.0
       '@commitlint/read': 16.2.1
       '@commitlint/types': 16.2.1
       lodash: 4.17.21
@@ -372,8 +372,8 @@ packages:
       '@commitlint/types': 16.2.1
     dev: true
 
-  /@commitlint/load/16.2.4:
-    resolution: {integrity: sha512-HjANm3/29ROV+zt4yfaY/K6gpr9Dbzgtlp0kSwZGW0poDXlD/yqVYgPQ6JolJzZii5FUz5R4yVLC15hVL/w60w==}
+  /@commitlint/load/16.3.0:
+    resolution: {integrity: sha512-3tykjV/iwbkv2FU9DG+NZ/JqmP0Nm3b7aDwgCNQhhKV5P74JAuByULkafnhn+zsFGypG1qMtI5u+BZoa9APm0A==}
     engines: {node: '>=v12'}
     dependencies:
       '@commitlint/config-validator': 16.2.1
@@ -383,7 +383,7 @@ packages:
       '@types/node': 16.11.35
       chalk: 4.1.2
       cosmiconfig: 7.0.1
-      cosmiconfig-typescript-loader: 1.0.2_3f276d54c583198e50f311697b18b00b
+      cosmiconfig-typescript-loader: 2.0.0_3f276d54c583198e50f311697b18b00b
       lodash: 4.17.21
       resolve-from: 5.0.0
       typescript: 4.6.4
@@ -2091,8 +2091,8 @@ packages:
       object-assign: 4.1.1
       vary: 1.1.2
 
-  /cosmiconfig-typescript-loader/1.0.2_3f276d54c583198e50f311697b18b00b:
-    resolution: {integrity: sha512-27ZehvijYqAKVzta5xtZBS3PAliC8CmnWkGXN0vgxAZz7yqxpMjf3aG7flxF5rEiu8FAD7nZZXtOI+xUGn+bVg==}
+  /cosmiconfig-typescript-loader/2.0.0_3f276d54c583198e50f311697b18b00b:
+    resolution: {integrity: sha512-2NlGul/E3vTQEANqPziqkA01vfiuUU8vT0jZAuUIjEW8u3eCcnCQWLggapCjhbF76s7KQF0fM0kXSKmzaDaG1g==}
     engines: {node: '>=12', npm: '>=6'}
     peerDependencies:
       '@types/node': '*'
