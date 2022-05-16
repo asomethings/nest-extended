@@ -25,8 +25,8 @@
     "node": ">=14"
   },
   "devDependencies": {
-    "@commitlint/cli": "16.3.0",
-    "@commitlint/config-conventional": "16.2.4",
+    "@commitlint/cli": "17.0.0",
+    "@commitlint/config-conventional": "17.0.0",
     "@rollup/plugin-typescript": "8.3.2",
     "@types/autocannon": "7.6.1",
     "@types/cors": "2.8.12",
