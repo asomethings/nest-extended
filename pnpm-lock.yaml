@@ -29,7 +29,7 @@ importers:
       rollup-plugin-terser: 7.0.2
       rxjs: 7.5.5
       source-map-support: 0.5.21
-      ts-node: 10.8.0
+      ts-node: 10.8.1
       ts-toolbelt: 9.6.0
       tslib: 2.4.0
       typescript: 4.7.2
@@ -60,7 +60,7 @@ importers:
       rollup-plugin-terser: 7.0.2_rollup@2.75.5
       rxjs: 7.5.5
       source-map-support: 0.5.21
-      ts-node: 10.8.0_08e84cade539e9a9016ef48bfdf07f6c
+      ts-node: 10.8.1_08e84cade539e9a9016ef48bfdf07f6c
       ts-toolbelt: 9.6.0
       tslib: 2.4.0
       typescript: 4.7.2
@@ -2090,7 +2090,7 @@ packages:
     dependencies:
       '@types/node': 16.11.38
       cosmiconfig: 7.0.1
-      ts-node: 10.8.0_08e84cade539e9a9016ef48bfdf07f6c
+      ts-node: 10.8.1_08e84cade539e9a9016ef48bfdf07f6c
       typescript: 4.7.2
     transitivePeerDependencies:
       - '@swc/core'
@@ -5598,8 +5598,8 @@ packages:
     resolution: {integrity: sha1-n5up2e+odkw4dpi8v+sshI8RrbM=}
     engines: {node: '>=0.10.0'}
 
-  /ts-node/10.8.0_08e84cade539e9a9016ef48bfdf07f6c:
-    resolution: {integrity: sha512-/fNd5Qh+zTt8Vt1KbYZjRHCE9sI5i7nqfD/dzBBRDeVXZXS6kToW6R7tTU6Nd4XavFs0mAVCg29Q//ML7WsZYA==}
+  /ts-node/10.8.1_08e84cade539e9a9016ef48bfdf07f6c:
+    resolution: {integrity: sha512-Wwsnao4DQoJsN034wePSg5nZiw4YKXf56mPIAeD6wVmiv+RytNSWqc2f3fKvcUoV+Yn2+yocD71VOfQHbmVX4g==}
     hasBin: true
     peerDependencies:
       '@swc/core': '>=1.2.50'
