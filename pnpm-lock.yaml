@@ -7,7 +7,7 @@ importers:
       '@changesets/cli': 2.17.0
       '@commitlint/cli': 17.0.2
       '@commitlint/config-conventional': 17.0.2
-      '@rollup/plugin-typescript': 8.3.2
+      '@rollup/plugin-typescript': 8.3.3
       '@types/autocannon': 7.6.1
       '@types/cors': 2.8.12
       '@types/mustache-express': 1.2.2
@@ -38,7 +38,7 @@ importers:
     devDependencies:
       '@commitlint/cli': 17.0.2
       '@commitlint/config-conventional': 17.0.2
-      '@rollup/plugin-typescript': 8.3.2_0725fdebaeaf99bdfdfa1d4c43f79337
+      '@rollup/plugin-typescript': 8.3.3_0725fdebaeaf99bdfdfa1d4c43f79337
       '@types/autocannon': 7.6.1
       '@types/cors': 2.8.12
       '@types/mustache-express': 1.2.2
@@ -797,13 +797,16 @@ packages:
       '@octokit/openapi-types': 10.1.1
     dev: false
 
-  /@rollup/plugin-typescript/8.3.2_0725fdebaeaf99bdfdfa1d4c43f79337:
-    resolution: {integrity: sha512-MtgyR5LNHZr3GyN0tM7gNO9D0CS+Y+vflS4v/PHmrX17JCkHUYKvQ5jN5o3cz1YKllM3duXUqu3yOHwMPUxhDg==}
+  /@rollup/plugin-typescript/8.3.3_0725fdebaeaf99bdfdfa1d4c43f79337:
+    resolution: {integrity: sha512-55L9SyiYu3r/JtqdjhwcwaECXP7JeJ9h1Sg1VWRJKIutla2MdZQodTgcCNybXLMCnqpNLEhS2vGENww98L1npg==}
     engines: {node: '>=8.0.0'}
     peerDependencies:
       rollup: ^2.14.0
       tslib: '*'
       typescript: '>=3.7.0'
+    peerDependenciesMeta:
+      tslib:
+        optional: true
     dependencies:
       '@rollup/pluginutils': 3.1.0_rollup@2.75.6
       resolve: 1.20.0
