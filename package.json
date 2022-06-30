@@ -31,7 +31,7 @@
     "@types/autocannon": "7.6.1",
     "@types/cors": "2.8.12",
     "@types/mustache-express": "1.2.2",
-    "@types/node": "16.11.41",
+    "@types/node": "16.11.42",
     "@typescript-eslint/eslint-plugin": "5.30.0",
     "@typescript-eslint/parser": "5.30.0",
     "autocannon": "7.9.0",
